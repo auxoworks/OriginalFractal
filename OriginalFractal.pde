@@ -1,4 +1,4 @@
-	//int a=500;
+
 	int a =15;
 	int newlen=400;
 	int startx=200;
@@ -27,13 +27,11 @@ if (len>a)
 	    fill(255,255,255);
 	fractal(x-len/2,y,len/2);
 	fractal(x,y-len/2,len/2);
-		//fill(255,0,0);
 	fractal(x+len/2,y,len/2);
 	fractal(x,y+len/2,len/2);
 	}	
 else
 	{
-	System.out.println(newlen);
 	rect(x, y, len, len );
 	}	
 }
